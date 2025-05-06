@@ -1,0 +1,71 @@
+Nombre,Provincia,Código,Fecha,Periodo,Preccipitaciones,Estado del cielo,Temperatura maxima,Temperatura mínima
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,00-24,0,,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,00-12,0,,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,12-24,100,Nuboso con lluvia escasa,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,00-06,0,,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,06-12,100,Muy nuboso con lluvia escasa,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,12-18,100,Nuboso con lluvia escasa,12,5
+Agurain/Salvatierra,Araba/Álava,01051,2025-05-06T00:00:00,18-24,0,Nuboso,12,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,00-24,0,,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,00-12,0,,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,12-24,100,Intervalos nubosos con lluvia escasa,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,00-06,0,,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,06-12,100,Nuboso con lluvia escasa,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,12-18,100,Intervalos nubosos con lluvia escasa,13,5
+Alegría-Dulantzi,Araba/Álava,01001,2025-05-06T00:00:00,18-24,0,Muy nuboso,13,5
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,00-24,0,,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,00-12,0,,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,12-24,100,Intervalos nubosos con lluvia,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,00-06,0,,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,06-12,100,Muy nuboso con lluvia,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,12-18,100,Intervalos nubosos con lluvia escasa,15,7
+Amurrio,Araba/Álava,01002,2025-05-06T00:00:00,18-24,0,Nuboso,15,7
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,00-24,0,,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,00-12,0,,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,12-24,100,Nuboso con lluvia escasa,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,00-06,0,,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,06-12,100,Nuboso con lluvia escasa,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,12-18,100,Nuboso con lluvia escasa,12,3
+Añana,Araba/Álava,01049,2025-05-06T00:00:00,18-24,0,Poco nuboso,12,3
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,00-24,0,,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,00-12,0,,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,12-24,100,Muy nuboso con lluvia,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,00-06,0,,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,06-12,100,Intervalos nubosos con lluvia,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,12-18,100,Muy nuboso con lluvia escasa,15,7
+Aramaio,Araba/Álava,01003,2025-05-06T00:00:00,18-24,10,Bruma,15,7
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,00-24,0,,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,00-12,0,,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,12-24,100,Intervalos nubosos con lluvia escasa,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,00-06,0,,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,06-12,100,Muy nuboso con lluvia escasa,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,12-18,100,Intervalos nubosos con lluvia escasa,14,4
+Armiñón,Araba/Álava,01006,2025-05-06T00:00:00,18-24,0,Nuboso,14,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,00-24,0,,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,00-12,0,,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,12-24,95,Intervalos nubosos con lluvia escasa,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,00-06,0,,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,06-12,100,Muy nuboso con lluvia escasa,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,12-18,95,Intervalos nubosos con lluvia escasa,12,4
+Arraia-Maeztu,Araba/Álava,01037,2025-05-06T00:00:00,18-24,0,Poco nuboso,12,4
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,00-24,0,,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,00-12,0,,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,12-24,100,Nuboso con lluvia escasa,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,00-06,0,,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,06-12,100,Cubierto con lluvia escasa,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,12-18,100,Nuboso con lluvia escasa,14,5
+Arratzua-Ubarrundia,Araba/Álava,01008,2025-05-06T00:00:00,18-24,0,Nuboso,14,5
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,00-24,0,,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,00-12,0,,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,12-24,100,Nuboso con lluvia,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,00-06,0,,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,06-12,100,Nuboso con lluvia,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,12-18,100,Nuboso con lluvia escasa,15,6
+Artziniega,Araba/Álava,01004,2025-05-06T00:00:00,18-24,0,Poco nuboso,15,6
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,00-24,0,,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,00-12,0,,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,12-24,100,Muy nuboso con lluvia escasa,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,00-06,0,,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,06-12,100,Cubierto con lluvia escasa,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,12-18,100,Muy nuboso con lluvia escasa,12,5
+Asparrena,Araba/Álava,01009,2025-05-06T00:00:00,18-24,0,Muy nuboso,12,5
