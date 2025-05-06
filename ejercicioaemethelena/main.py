@@ -3,6 +3,7 @@ from diario import obtenerDiario, getidfallidos
 from utils import  formatearCsv, formatearJson
 from crearcsvyjson import crearJSON, crearCsvPredicciones
 from constantes import CABECERAPREDICIONES
+from guardarbuckets import subirabucket
 
 def main():
    
@@ -34,9 +35,12 @@ def main():
         diariofinal.update(datosdiario)
     
     crearJSON("diario.json",diariofinal)
-    
+
     crearCsvPredicciones(diariofinal)
 
-         
+
 if __name__ == "__main__":
     main()
+
+    subirabucket('logs/logs.log', 'log_exports/')
+    subirabucket('datos/diario.csv', 'output/')
