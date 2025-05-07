@@ -1,17 +1,24 @@
 import datetime as dt
 from google.cloud import storage
 from google.cloud import bigquery
+from logs import logINFO, logERROR
 
 def subirabucket(archivo, nombrecarpeta):
-    today_date = dt.datetime.now().strftime("%Y-%m-%d")
-    destination_blob_name = f"{nombrecarpeta}/{today_date}/{archivo.split('/')[-1]}"
+    try: 
+        fechahoy = dt.datetime.now().strftime("%Y-%m-%d")
+        destination_blob_name = f"{nombrecarpeta}/{fechahoy}/{archivo.split('/')[-1]}"
 
-    storage_client = storage.Client()
-    bucket = storage_client.bucket('aemetextractionhelena')
-    blob = bucket.blob(destination_blob_name)
-    blob.upload_from_filename(archivo)
+        client = storage.Client()
+        bucket = client.bucket('aemetextractionhelena')
+        blob = bucket.blob(destination_blob_name)
+        blob.upload_from_filename(archivo)
 
-    print(f"Archivo subido a gs://{'aemetextractionhelena'}/{destination_blob_name}")
+        print(f"Archivo subido a gs://{'aemetextractionhelena'}/{destination_blob_name}")
+        logINFO(f"Archivo subido a gs://{'aemetextractionhelena'}/{destination_blob_name}")
+
+    except Exception as e:
+        print(f"Error al subir el csv al bucket{e}")
+        logERROR(f"Error al subir el csv al bucket{e}")
 
 def creartablaBigQuery(archivocsv):
     try:
@@ -34,5 +41,7 @@ def creartablaBigQuery(archivocsv):
             job.result()
         
         print("Csv subido a la tabla de big query")
+        logINFO("Csv subido a la tabla de big query")
     except Exception as e:
         print(f"Error al subir el csv a la tabla big query{e}")
+        logERROR(f"Error al subir el csv a la tabla big query{e}")

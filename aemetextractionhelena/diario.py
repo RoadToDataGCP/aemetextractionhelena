@@ -3,10 +3,12 @@ from logs import logINFO, logERROR
 
 idfallidos = list()
 
+# Obtener la lista de IDs fallidos
 def getidfallidos():
     global idfallidos
     return idfallidos
 
+# Formatear los datos que devuelve la API
 def formatearDatos(datos, idmunicipios):
     lista = list() 
     nombre = datos.get('nombre', None)
@@ -42,17 +44,20 @@ def formatearJsonDatosTiempo(idmunicipios, datos):
     diccionario[idmunicipios] = formatearDatos(datos, idmunicipios)
     return diccionario
 
+# Obtener los datos de la API
 def obtenerDiario(id): 
     global idfallidos
     predicciones_finales = dict()
     
     try: 
         print(f"Obteniendo diario para {id}")
+        logINFO(f"Obteniendo diario para {id}")
         url = f'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/{id}'
         respuesta = conectarAEMET(url)
         datos = recogerDatos(respuesta)
           
         if datos is None:
+            logERROR(f"Error al recoger los datos del id {id}")
             idfallidos.append(id)
             return None
     
@@ -63,4 +68,3 @@ def obtenerDiario(id):
     except Exception as e:
         print(f"[ERROR] Fallo con el ID {id}: {e}")
     return predicciones_finales
-    # Sección critica, hay que controlar el acceso
