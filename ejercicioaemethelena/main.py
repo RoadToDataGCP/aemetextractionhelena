@@ -14,7 +14,7 @@ def main():
     formatearCsv("diario.csv", CABECERAPREDICIONES)
         
     # Consegir los id para el diario
-    print("Recoger los id ")
+    print("Recoger los id")
     diccionarioid, listaid = obtenerId()
 
     crearJSON("id.json",diccionarioid)
