@@ -41,6 +41,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    subirabucket('logs/logs.log', 'log_exports/')
     subirabucket('datos/diario.csv', 'output/')
