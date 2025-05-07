@@ -3,7 +3,7 @@ from diario import obtenerDiario, getidfallidos
 from utils import  formatearCsv, formatearJson
 from crearcsvyjson import crearJSON, crearCsvPredicciones
 from constantes import CABECERAPREDICIONES
-from guardarbuckets import subirabucket
+from guardarbuckets import subirabucket, creartablaBigQuery
 
 def main():
    
@@ -41,3 +41,4 @@ def main():
 if __name__ == "__main__":
     main()
     subirabucket('datos/diario.csv', 'output')
+    creartablaBigQuery('datos/diario.csv')

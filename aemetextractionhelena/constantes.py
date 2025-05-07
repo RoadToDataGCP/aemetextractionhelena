@@ -1,5 +1,5 @@
 # Cabecera del CSV
-CABECERAPREDICIONES = ['Nombre','Provincia','Código','Fecha','Periodo','Preccipitaciones','Estado del cielo','Temperatura maxima','Temperatura mínima']
+CABECERAPREDICIONES = ['nombre','provincia','codigo','fecha','periodo','precipitaciones','estado_del_cielo','temperatura_maxima','temperatura_minima']
 
 # Apis Keys
 API_KEY1 = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoZWxlbmFyczE4NUBnbWFpbC5jb20iLCJqdGkiOiI4ZTY1YTRhZi01M2NjLTRlNWEtYjRhMS01ZGFjMWUxOTgxNzkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTc0MzU4MzIzOSwidXNlcklkIjoiOGU2NWE0YWYtNTNjYy00ZTVhLWI0YTEtNWRhYzFlMTk4MTc5Iiwicm9sZSI6IiJ9.1oRnWlUElaCgTO2GcxgY6Opv9Wo9pwuDN3wq8y4j45Y'
