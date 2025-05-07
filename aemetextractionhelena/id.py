@@ -15,7 +15,7 @@ def formatearJsonId(datos_id):
 
 def obtenerId():
     # Obtener los datos de los municipios del excel
-    datos_id= pd.DataFrame(pd.read_excel("aemetextractionhelena/datos/diccionario24.xlsx", skiprows=1))
+    datos_id= pd.DataFrame(pd.read_excel("datos/diccionario24.xlsx", skiprows=1))
 
     # Crear una lista y el json de lo ids
     diccionarioid, listaid = formatearJsonId(datos_id)

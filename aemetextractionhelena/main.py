@@ -40,4 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    subirabucket('aemetextractionhelena/datos/diario.csv', 'output')
+    subirabucket('datos/diario.csv', 'output')
