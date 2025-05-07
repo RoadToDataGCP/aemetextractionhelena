@@ -6,7 +6,7 @@ import json
 
 # Crear un json
 def crearJSON(nombrefichero, datos):
-    with open("ejercicioaemethelena/datos/"+nombrefichero, 'a', encoding='utf-8') as archivo:
+    with open("aemetextractionhelena/datos/"+nombrefichero, 'a', encoding='utf-8') as archivo:
         json.dump(datos, archivo, indent=4, ensure_ascii=False)
     print(nombrefichero," creado con exito")
 
@@ -22,5 +22,5 @@ def crearCsvPredicciones(datos):
                 print("dia ", dia.get('fecha',None), " añadido ")
                 lista.append(dia) # Añadirlo a la lista de datos
     predicciones = pd.DataFrame(lista) # Convertirlo en un datafame
-    predicciones.to_csv("ejercicioaemethelena/datos/diario.csv", mode="a", header=False, index=False) # Crear el excel
+    predicciones.to_csv("aemetextractionhelena/datos/diario.csv", mode="a", header=False, index=False) # Crear el excel
     logINFO("Datos dentro del csv de Prediciones")

@@ -2,7 +2,7 @@ import logging
 
 # Configuracion de los logs 
 logging.basicConfig (
-    filename='logs/logs.log',     
+    filename='aemetextractionhelena/datos/logs.log',     
     level=logging.INFO ,
     filemode= 'w', # Sobreescribe el archivo
     datefmt='%Y-%m-%d %H:%M:%S')

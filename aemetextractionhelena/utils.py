@@ -11,11 +11,11 @@ def formatearFechas(fecha):
 def formatearCsv(nombre, cabecera):
     logINFO(f"CSV {nombre} limpio")
     df = pd.DataFrame(columns= cabecera)
-    df.to_csv("ejercicioaemethelena/datos/"+nombre, mode="w", index=False)
+    df.to_csv("aemetextractionhelena/datos/"+nombre, mode="w", index=False)
 
 #Limpiar los json
 def formatearJson(nombre):
     logINFO(f"JSON {nombre} limpio")
     datos = ''
-    with open("ejercicioaemethelena/datos/"+nombre, 'w', encoding='utf-8') as archivo:
+    with open("aemetextractionhelena/datos/"+nombre, 'w', encoding='utf-8') as archivo:
        pass

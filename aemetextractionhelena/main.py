@@ -10,7 +10,6 @@ def main():
     # Limpiar los csv y json
     formatearJson("id.json")
     formatearJson("diario.json")
-    formatearJson("diariobruto.json")
     formatearCsv("diario.csv", CABECERAPREDICIONES)
         
     # Consegir los id para el diario
@@ -41,4 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    subirabucket('aemetextractionhelena/datos/diario.csv', 'output/')
+    subirabucket('aemetextractionhelena/datos/diario.csv', 'output')
