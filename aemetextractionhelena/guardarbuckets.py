@@ -43,5 +43,5 @@ def creartablaBigQuery(archivocsv):
         print("Csv subido a la tabla de big query")
         logINFO("Csv subido a la tabla de big query")
     except Exception as e:
-        print(f"Error al subir el csv a la tabla big query{e}")
-        logERROR(f"Error al subir el csv a la tabla big query{e}")
+        print(f"Error al subir el csv a la tabla big query: {e}")
+        logERROR(f"Error al subir el csv a la tabla big query: {e}")

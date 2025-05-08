@@ -37,7 +37,6 @@ def main():
 
     crearCsvPredicciones(diariofinal)
 
-
 if __name__ == "__main__":
     main()
     subirabucket('datos/diario.csv', 'output')
